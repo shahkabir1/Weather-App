@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shah's Weather App</title>
+  </head>
+  <body id="main-page" class="blurred">
+    <header class="header">
+      <div class="header-left">
+        <img class="weather-icon-large" src="public/sun.svg" data-current-icon />
+        <div class="header-current-temp">
+          <span data-current-temp>27</span>&deg;
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="info-group">
+          <div class="label">High</div>
+          <div><span data-current-high>35</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">FL High</div>
+          <div><span data-current-fl-high>29</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Wind</div>
+          <div><span data-current-wind>7</span><span class="value-sub-info">km/h</span></div>
+        </div>
+        <div class="info-group">
+          <div class="label">Low</div>
+          <div><span data-current-low>21</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">FL Low</div>
+          <div><span data-current-fl-low>17</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Precip</div>
+          <div><span data-current-precip>1</span><span class="value-sub-info">cm</span></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="day-section" data-day-section>
+      <a href="hourly.html"><button id="0" class="day-btn"><div class="day-card">
+        <img src="public/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Monday</div>
+        <div>32&deg;</div>
+      </div></button></a>
+      <a href="hourly.html"><button id="1" class="day-btn"><div class="day-card">
+        <img src="public/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Tuesday</div>
+        <div>32&deg;</div>
+      </div></button></a>
+      <a href="hourly.html"><button id="2" class="day-btn"><div class="day-card">
+        <img src="public/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Wednesday</div>
+        <div>32&deg;</div>
+      </div></button></a>
+      <a href="hourly.html"><button id="3" class="day-btn"><div class="day-card">
+        <img src="public/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Thursday</div>
+        <div>32&deg;</div>
+      </div></button></a>
+      <a href="hourly.html"><button id="4" class="day-btn"><div class="day-card">
+        <img src="public/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Friday</div>
+        <div>32&deg;</div>
+      </div></button></a>
+      <a href="hourly.html"><button id="5" class="day-btn"><div class="day-card">
+        <img src="public/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Saturday</div>
+        <div>32&deg;</div>
+      </div></button></a>
+      <a href="hourly.html"><button id="6" class="day-btn"><div class="day-card">
+        <img src="public/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Sunday</div>
+        <div>32&deg;</div>
+      </div></button></a>
+    </section>
+
+    <template id="day-card-template">
+      <a class="day-btn" id="id0" href="hourly.html"><button class="day-btn" style="width: 100%"><div class="day-card">
+        <img data-icon class="weather-icon" />
+        <div class="day-card-day" data-date></div>
+        <div><span data-temp>32</span><span>&deg;</span></div>
+      </div></button></a>
+    </template>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
