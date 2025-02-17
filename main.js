@@ -129,7 +129,7 @@ function storeClickedAnchorId(event) {
     event.preventDefault();
 
     const clickedAnchorId = event.currentTarget.id;
-    const newUrl = "hourly.html?id=" + clickedAnchorId;
+    const newUrl = "/hourly.html?id=" + clickedAnchorId;
     window.location.href = newUrl;
 }
 
