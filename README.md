@@ -1,0 +1,1 @@
+A Dynamic Weather App that displays real-time weather data based on geolocation. This is a project I spent some time working on, using sources from the internet to refine it; my way of expanding my development skills and the start of my creation of projects.
