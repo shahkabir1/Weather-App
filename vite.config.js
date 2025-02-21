@@ -6,5 +6,11 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/main.js',
+        assetFileNames: 'assets/[name][ext]',
+      },
+    },
   },
 });
