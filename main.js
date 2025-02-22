@@ -1,4 +1,4 @@
-import '/style.css'
+import '/assets/index-f7d1ff75.css'
 import { getWeather } from "./weather.js"
 import { ICON_MAP } from "./iconMap.js"
 
