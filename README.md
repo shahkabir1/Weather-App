@@ -1,4 +1,4 @@
-# 🌦️ Weather App
+# 🌦️ Dynamic Weather App
 
 A modern weather app built with **Vite, JavaScript, HTML, and CSS**. This app fetches real-time weather data and displays both **current and hourly forecasts**.
 
