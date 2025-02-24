@@ -1,3 +1,43 @@
-A Dynamic Weather App that displays real-time weather data based on geolocation. This is a project I spent some time working on, using sources from the internet to refine it; my way of expanding my development skills and the start of my creation of projects.
+# 🌦️ Weather App
 
-Note: Deployment currently not working, however works on localhost. Error is that main.js is not rendering with hourly.html when the latter is placed in public folder. Will fix later when able to.
+A modern weather app built with **Vite, JavaScript, HTML, and CSS**. This app fetches real-time weather data and displays both **current and hourly forecasts**.
+
+## 🚀 Features
+- 📍 **Geolocation-based weather fetching**
+- 🌡 **Current temperature, high/low, wind speed, and precipitation**
+- ⏳ **Hourly weather breakdown**
+- 🌙 **Icons for different weather conditions**
+- 🎨 **Responsive UI with dynamic styling**
+- ☁️ **Deployed on Vercel**
+
+---
+
+## 🛠 Setup Instructions
+
+### 1️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 2️⃣ Run the Development Server
+```bash
+npm run dev
+```
+_Then, open:_
+```
+http://localhost:5173/
+```
+
+### 3️⃣ Build for Production
+```bash
+npm run build
+```
+
+### 4️⃣ Preview Production Build
+```bash
+npm run preview
+```
+_Then, open:_
+```
+http://localhost:4173/
+```
