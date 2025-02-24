@@ -9,7 +9,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         entryFileNames: 'assets/main.js',
-        assetFileNames: 'assets/[name][ext]',
+        assetFileNames: 'assets/[name][extname]',
       },
     },
   },
